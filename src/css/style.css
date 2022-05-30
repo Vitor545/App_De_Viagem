@@ -341,4 +341,27 @@ button {
 .nav_button {
   display: none;
 }
+
+.logos_container {
+  padding-top: 2rem;
+  -ms-grid-columns: (1fr)[2];
+      grid-template-columns: repeat(2, 1fr);
+  gap: 3rem 2rem;
+  justify-items: center;
+}
+
+.logos_img img {
+  width: 100px;
+  opacity: 0.2;
+  -webkit-filter: grayscale(100%);
+          filter: grayscale(100%);
+  -webkit-transition: 0.4;
+  transition: 0.4;
+}
+
+.logos_img img:hover {
+  -webkit-filter: grayscale(0%);
+          filter: grayscale(0%);
+  opacity: 1;
+}
 /*# sourceMappingURL=style.css.map */
