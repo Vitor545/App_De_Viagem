@@ -37,4 +37,72 @@
   }
   
   
-  
+  .header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: transparent;
+    z-index: $z-100;
+    transition: .4s;
+  }
+
+  .nav {
+    height: $altura_header;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .nav_logo {
+    color: red;
+    display: inline-flex;
+    align-items: center;
+    // adiciona 'margin'
+    column-gap: 0.25rem;
+    font-weight: $medium;
+    transition: 0.4;
+  }
+
+  .nav_logo i {
+    font-size: 1rem;
+  }
+
+  .nav_logo:hover {
+    color: $first-color;
+  }
+
+  @media screen and (max-width: 1024px) {
+    .nav_menu {
+      position: fixed;
+      bottom: 2rem;
+      background-color: $backgroud;
+      box-shadow: 0 8px 24px hsla(228, 66%, 45%, .15);
+      width: 90%;
+      left: 0;
+      right: 0;
+      margin: 0 auto;
+      padding: 1.30rem 3rem;
+      border-radius: 1.25rem;
+      transition: 0.4;
+    }
+    .nav_list {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    } 
+
+    .nav_link {
+      color: $cor_texto;
+      display: flex;
+      padding: 0.5rem;
+    }
+
+    .nav_link i {
+      font-size: 1.25rem;
+    }
+
+    .nav_link span {
+      display: none;
+    }
+  }
