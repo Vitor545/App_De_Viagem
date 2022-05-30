@@ -1,0 +1,40 @@
+@import './colors';
+@import './typografy';
+@import './sizes';
+@import './reset';
+
+  .container {
+    max-width: 1024px;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+  }
+  
+  .grid {
+    display: grid;
+  }
+  
+  .section {
+    padding: 4.5rem 0 2rem;
+  }
+  
+  .section__title {
+    font-size: $h2;
+    margin-bottom: 1rem;
+  }
+  
+  .section__title span {
+    color: $second-color;
+  }
+  
+  .section__subtitle {
+    display: block;
+    font-size: $font_pequena;
+    color: $second-color;
+  }
+  
+  .main {
+    overflow: hidden;
+  }
+  
+  
+  

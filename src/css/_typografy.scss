@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+
+
+//Tamanhos Mobile
+
+$font_family: 'Poppins', sans-serif;
+$font_grande: 2.25rem;
+$font_normal: .938rem;
+$font_pequena: .813rem;
+$font_muito_pequena: .75rem;
+$h1: 1.5rem;
+$h2: 1.25rem;
+$h3: 1rem;
+
+//Tamanhos Desktop
+
+@media screen and (min-width: 1024px) {
+    $font_grande: 4rem;
+    $font_normal: 1rem;
+    $font_pequena: .875rem;
+    $font_muito_pequena: .813rem;
+    $h1: 2.25rem;
+    $h2: 1.5rem;
+    $h3: 1.25rem;
+}
