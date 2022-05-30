@@ -1,4 +1,5 @@
 import React from "react";
+import HomeImg from '../img/home.jpg';
 
 const Home = () => {
     return(
@@ -10,10 +11,10 @@ const Home = () => {
                             Encontre <br/> Os melhores lugares <br/> Para se visitar
                         </h1>
                         <p className="home_description">
-                            Se sua vontade é viajar sem complicações você encontrou o lugar certo, vamos te levaremos a lugares inesquecíveis.
+                            Se sua vontade é viajar sem complicações você encontrou o lugar certo, vamos te levar a lugares inesquecíveis.
                         </p>
                         <form action="" className="home_search">
-                            <i className='bx bx-map'></i>
+                            <i className='bx bxs-map'></i>
                             <input type="search" placeholder="Qual seu próximo destino?" className="home_search_input" />
                             <button className="button">Buscar</button>
                         </form>
@@ -31,7 +32,7 @@ const Home = () => {
                                     2K<span>+</span>
                                 </h1>
                                 <span className="home_value_description">
-                                    Recomendações <br/> Positivas
+                                    Clientes <br/> Felizes
                                 </span>
                             </div>
                             <div>
@@ -42,6 +43,12 @@ const Home = () => {
                                     Prêmios <br/> Ganhos
                                 </span>
                             </div>
+                        </div>
+                    </div>
+                    <div className="home_images">
+                        <div className="home_orbe"></div>
+                        <div className="home_img">
+                            <img src={ HomeImg } alt="imagem de uma das avenidas de Tiradentes/MG" />
                         </div>
                     </div>
                 </div>
