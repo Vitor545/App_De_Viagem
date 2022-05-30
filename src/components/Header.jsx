@@ -1,11 +1,8 @@
 import React from "react";
 
 const Header = () => {
-    const onScroll = (e) => {
-        console.log(e.target);
-    }
     return(
-        <header className="header" onScroll={onScroll}>
+        <header className="header" >
             <nav className="nav container">
                 <a href="#" className="nav_logo">
                     Viagem

@@ -3,8 +3,7 @@ import HomeImg from '../img/home.jpg';
 
 const Home = () => {
     return(
-        <main className="main">
-            <section className="home section" id="home">
+        <section className="home section" id="home">
                 <div className="home_container container grid">
                     <div className="home_data">
                         <h1 className="home_title">
@@ -52,8 +51,7 @@ const Home = () => {
                         </div>
                     </div>
                 </div>
-            </section>
-        </main>
+        </section>
     );
 }
 
