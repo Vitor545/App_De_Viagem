@@ -17,21 +17,6 @@
     padding: 4.5rem 0 2rem;
   }
   
-  .section__title {
-    font-size: $h2;
-    margin-bottom: 1rem;
-  }
-  
-  .section__title span {
-    color: $second-color;
-  }
-  
-  .section__subtitle {
-    display: block;
-    font-size: $font_pequena;
-    color: $second-color;
-  }
-  
   .main {
     overflow: hidden;
   }
@@ -264,10 +249,28 @@
       width: 100px;
       opacity: 0.2;
       filter: grayscale(100%);
-      transition: 0.4;
+      transition: 0.4s;
   
       &:hover {
         filter: grayscale(0%);
         opacity: 1;
       }
+    }
+
+
+    // POPULAR
+
+    .section_title {
+      font-size: $h2;
+      margin-bottom: 1rem;
+    }
+    
+    .section_title span {
+      color: $second-color;
+    }
+    
+    .section_subtitle {
+      display: block;
+      font-size: $font_pequena;
+      color: $second-color;
     }

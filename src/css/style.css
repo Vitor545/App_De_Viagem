@@ -71,21 +71,6 @@ button {
   padding: 4.5rem 0 2rem;
 }
 
-.section__title {
-  font-size: 1.25rem;
-  margin-bottom: 1rem;
-}
-
-.section__title span {
-  color: #eb7724;
-}
-
-.section__subtitle {
-  display: block;
-  font-size: 0.813rem;
-  color: #eb7724;
-}
-
 .main {
   overflow: hidden;
 }
@@ -355,13 +340,28 @@ button {
   opacity: 0.2;
   -webkit-filter: grayscale(100%);
           filter: grayscale(100%);
-  -webkit-transition: 0.4;
-  transition: 0.4;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
 }
 
 .logos_img img:hover {
   -webkit-filter: grayscale(0%);
           filter: grayscale(0%);
   opacity: 1;
+}
+
+.section_title {
+  font-size: 1.25rem;
+  margin-bottom: 1rem;
+}
+
+.section_title span {
+  color: #eb7724;
+}
+
+.section_subtitle {
+  display: block;
+  font-size: 0.813rem;
+  color: #eb7724;
 }
 /*# sourceMappingURL=style.css.map */
