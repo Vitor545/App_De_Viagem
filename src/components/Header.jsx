@@ -24,8 +24,8 @@ const Header = () => {
                         </li>
                         <li className="nav_item">
                             <a href="#value" className="nav_link">
-                                <i className='bx bx-trip'></i>
-                                <span>Passagens</span>
+                                <i className='bx bx-diamond'></i>
+                                <span>Nossos Valores</span>
                             </a>
                         </li>
                         <li className="nav_item">

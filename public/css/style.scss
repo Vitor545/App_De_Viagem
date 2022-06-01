@@ -347,3 +347,94 @@
     .swiper-button-prev {
       left: calc(50% - 3rem);
     }
+
+    .value_container {
+      row-gap: 3rem;
+    }
+
+    .value_images {
+      position: relative;
+      display: flex;
+      justify-content: center;
+    }
+
+    .value_orbe {
+      width: 266px;
+      height: 316px;
+      background:hsl(228,24%,97%);
+      border-radius: 136px 136px 16px 16px;
+    }
+
+    .value_img {
+      position: absolute;
+      width: 250px;
+      height: 300px;
+      overflow: hidden;
+      border-radius: 126px 126px 12px 12px;
+      inset: 0;
+      margin: auto;
+      box-shadow: 0 16px 32px hsla(228, 66%, 25%, 0.25);
+    }
+
+    .value_description {
+      font-size: $font_muito_pequena;
+      margin-bottom: 2rem;
+    }
+
+    .value_accordion {
+      display: grid;
+      row-gap: 1.5rem;
+    }
+
+    .value_accordion_item {
+      background-color: $backgroud;
+      border: 2px solid $cor_border;
+      border-radius: 0.5rem;
+      padding: 1rem 0.75rem;
+    }
+
+    .value_accordion_header {
+      display: flex;
+      align-items: center;
+      cursor: pointer;
+    }
+
+    .value_accordion_icon {
+      background-color: $first-color-lighten;
+      padding: 6px;
+      border-radius: 0.25rem;
+      font-size: 18px;
+      color: $first-color;
+      margin-right: 0.75rem;
+      transition: 0.4s;
+    }
+
+    .value_accordion_title {
+      font-size: $font_pequena;
+    }
+
+    .value_accordion_arrow {
+      display: inline-flex;
+      background-color: $first-color-lighten;
+      padding: 0.25rem;
+      color: $first-color;
+      border-radius: 2px;
+      font-size: 10px;
+      margin-left: auto;
+      transition: 0.4s;
+
+      i {
+        transition: 0.4s;
+      }
+    }
+
+    .value_accordion_description {
+      font-size: $font_muito_pequena;
+      padding: 1.25rem 2.5rem 0 2.75rem;
+    }
+
+    .value_accordion_content {
+      overflow: hidden;
+      height: 0;
+      transition: all 0.25s ease;
+    }

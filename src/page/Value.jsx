@@ -5,7 +5,7 @@ const Value = () => {
     return(
         <section className="value section" id="value">
             <div className="value_container container grid">
-                <div className="values_images">
+                <div className="value_images">
                     <div className="value_orbe"></div>
                     <div className="value_img">
                         <img src={ Values } alt="" />
@@ -15,7 +15,7 @@ const Value = () => {
                     <div className="value_data">
                         <span className="section_subtitle">Nossos Valores</span>
                         <h2 className="section_title">
-                            Valor que damos a você<span>.</span>
+                            Valor Que Damos a Você<span>.</span>
                         </h2>
                         <p className="value_description">
                             Estamos sempre prontos para ajudar, fornecendo o melhor serviço para você.

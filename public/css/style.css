@@ -442,4 +442,111 @@ button {
 .swiper-button-prev {
   left: calc(50% - 3rem);
 }
+
+.value_container {
+  row-gap: 3rem;
+}
+
+.value_images {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.value_orbe {
+  width: 266px;
+  height: 316px;
+  background: #f6f6f9;
+  border-radius: 136px 136px 16px 16px;
+}
+
+.value_img {
+  position: absolute;
+  width: 250px;
+  height: 300px;
+  overflow: hidden;
+  border-radius: 126px 126px 12px 12px;
+  inset: 0;
+  margin: auto;
+  -webkit-box-shadow: 0 16px 32px rgba(22, 39, 106, 0.25);
+          box-shadow: 0 16px 32px rgba(22, 39, 106, 0.25);
+}
+
+.value_description {
+  font-size: 0.75rem;
+  margin-bottom: 2rem;
+}
+
+.value_accordion {
+  display: -ms-grid;
+  display: grid;
+  row-gap: 1.5rem;
+}
+
+.value_accordion_item {
+  background-color: #f7f7f7;
+  border: 2px solid #f5f7ff;
+  border-radius: 0.5rem;
+  padding: 1rem 0.75rem;
+}
+
+.value_accordion_header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  cursor: pointer;
+}
+
+.value_accordion_icon {
+  background-color: #f0f3ff;
+  padding: 6px;
+  border-radius: 0.25rem;
+  font-size: 18px;
+  color: #3858d6;
+  margin-right: 0.75rem;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.value_accordion_title {
+  font-size: 0.813rem;
+}
+
+.value_accordion_arrow {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  background-color: #f0f3ff;
+  padding: 0.25rem;
+  color: #3858d6;
+  border-radius: 2px;
+  font-size: 10px;
+  margin-left: auto;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.value_accordion_arrow i {
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.value_accordion_description {
+  font-size: 0.75rem;
+  padding: 1.25rem 2.5rem 0 2.75rem;
+}
+
+.value_accordion_content {
+  overflow: hidden;
+  height: 0;
+  -webkit-transition: all 0.25s ease;
+  transition: all 0.25s ease;
+}
 /*# sourceMappingURL=style.css.map */
