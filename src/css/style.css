@@ -364,4 +364,55 @@ button {
   font-size: 0.813rem;
   color: #eb7724;
 }
+
+.popular_container {
+  padding: 1rem 0 5rem;
+}
+
+.popular_card {
+  width: 290px;
+  background-color: #f7f7f7;
+  padding: 0.5rem 0.5rem 1.5rem;
+  border-radius: 1rem;
+  margin: 0 auto;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.popular_card:hover {
+  -webkit-box-shadow: 0 12px 16px rgba(39, 69, 190, 0.1);
+          box-shadow: 0 12px 16px rgba(39, 69, 190, 0.1);
+}
+
+.popular_img {
+  border-radius: 1rem;
+  width: 290px;
+  height: 290px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  margin-bottom: 1rem;
+}
+
+.popular_data {
+  padding: 0 1rem 0 0.5rem;
+}
+
+.popular_price {
+  font-size: 1.25rem;
+  color: #6c7493;
+  margin-bottom: 0.25rem;
+}
+
+.popular_price span {
+  color: #eb7724;
+}
+
+.popular_title {
+  font-size: 1rem;
+  margin-bottom: 0.75rem;
+}
+
+.popular_description {
+  font-size: 0.75rem;
+}
 /*# sourceMappingURL=style.css.map */
