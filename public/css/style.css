@@ -549,4 +549,24 @@ button {
   -webkit-transition: all 0.25s ease;
   transition: all 0.25s ease;
 }
+
+.accordion_open {
+  -webkit-box-shadow: 0 12px 32px rgba(39, 69, 190, 0.1);
+          box-shadow: 0 12px 32px rgba(39, 69, 190, 0.1);
+}
+
+.accordion_open .value_accordion_icon {
+  -webkit-box-shadow: 0 4px 4px rgba(39, 69, 190, 0.1);
+          box-shadow: 0 4px 4px rgba(39, 69, 190, 0.1);
+}
+
+.accordion_open .value_accordion_arrow {
+  -webkit-box-shadow: 0 2px 4px rgba(39, 69, 190, 0.1);
+          box-shadow: 0 2px 4px rgba(39, 69, 190, 0.1);
+}
+
+.accordion_open .value_accordion_arrow i {
+  -webkit-transform: rotate(-180deg);
+          transform: rotate(-180deg);
+}
 /*# sourceMappingURL=style.css.map */

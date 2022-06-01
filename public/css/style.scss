@@ -438,3 +438,19 @@
       height: 0;
       transition: all 0.25s ease;
     }
+
+    .accordion_open {
+      box-shadow: 0 12px 32px hsla(228, 66%, 45%, 0.1);
+    }
+
+    .accordion_open .value_accordion_icon {
+      box-shadow: 0 4px 4px hsla(228, 66%, 45%, 0.1);
+    }
+
+    .accordion_open .value_accordion_arrow {
+      box-shadow: 0 2px 4px hsla(228, 66%, 45%, 0.1);
+      i { 
+        transform: rotate(-180deg);
+      }
+    }
+
