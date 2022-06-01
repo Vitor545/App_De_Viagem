@@ -415,4 +415,31 @@ button {
 .popular_description {
   font-size: 0.75rem;
 }
+
+.swiper-button-next,
+.swiper-button-prev {
+  top: initial;
+  bottom: 0;
+  width: initial;
+  height: initial;
+  background-color: #f7f7f7;
+  border: 2px solid #b8bbc7;
+  padding: 6px;
+  border-radius: 0.5rem;
+  font-size: 1.5rem;
+  color: #3858d6;
+}
+
+.swiper-button-next::after,
+.swiper-button-prev::after {
+  content: '';
+}
+
+.swiper-button-next {
+  right: calc(50% - 3rem);
+}
+
+.swiper-button-prev {
+  left: calc(50% - 3rem);
+}
 /*# sourceMappingURL=style.css.map */

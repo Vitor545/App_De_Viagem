@@ -322,3 +322,28 @@
     .popular_description {
       font-size: $font_muito_pequena;
     }
+
+    .swiper-button-next,
+    .swiper-button-prev {
+      top: initial;
+      bottom: 0;
+      width: initial;
+      height: initial;
+      background-color: $backgroud;
+      border: 2px solid $cor_texto_light;
+      padding: 6px;
+      border-radius: 0.5rem;
+      font-size: 1.5rem;
+      color: $first-color;
+      &::after {
+        content: '';
+      }
+    }
+
+    .swiper-button-next {
+      right: calc(50% - 3rem);
+    }
+
+    .swiper-button-prev {
+      left: calc(50% - 3rem);
+    }

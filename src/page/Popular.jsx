@@ -13,9 +13,9 @@ const Popular = () => {
                 <h2 className="section_title">
                     Lugares Populares<span>.</span>
                 </h2>
-                <div className="popular_container">
-                    <div>
-                        <article className="popular_card">
+                <div className="popular_container swiper mySwiper">
+                    <div className="swiper-wrapper">
+                        <article className="popular_card swiper-slide">
                             <img
                                 src={Popular1}
                                 alt="Imagem mostrar um homem em um barco em Siargao (Siargao Island)"
@@ -34,7 +34,7 @@ const Popular = () => {
                                 </p>
                             </div>
                         </article>
-                        <article className="popular_card">
+                        <article className="popular_card swiper-slide">
                             <img
                                 src={Popular2}
                                 alt="Imagem mostrar uma das estradas de Valley of Fire State Park, United States"
@@ -53,7 +53,7 @@ const Popular = () => {
                                 </p>
                             </div>
                         </article>
-                        <article className="popular_card">
+                        <article className="popular_card swiper-slide">
                             <img
                                 src={Popular3}
                                 alt="Imagem mostrar uma visão panorâmica de Dubai"
@@ -72,7 +72,7 @@ const Popular = () => {
                                 </p>
                             </div>
                         </article>
-                        <article className="popular_card">
+                        <article className="popular_card swiper-slide">
                             <img
                                 src={Popular4}
                                 alt="Imagem mostrar uma estrada e um navio em Lake Thun, Switzerland"
@@ -90,7 +90,7 @@ const Popular = () => {
                                 </p>
                             </div>
                         </article>
-                        <article className="popular_card">
+                        <article className="popular_card swiper-slide">
                             <img
                                 src={Popular5}
                                 alt="Imagem mostrar diversas casas em Santorini, Greece."
@@ -109,6 +109,12 @@ const Popular = () => {
                                 </p>
                             </div>
                         </article>
+                    </div>
+                    <div className="swiper-button-next">
+                        <i className='bx bx-chevron-right'></i>
+                    </div>
+                    <div className="swiper-button-prev">
+                        <i className='bx bx-chevron-left'></i>
                     </div>
                 </div>
             </div>
