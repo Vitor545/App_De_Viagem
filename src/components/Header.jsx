@@ -11,7 +11,7 @@ const Header = () => {
                 <div className="nav_menu">
                     <ul className="nav_list">
                         <li className="nav_item">
-                            <a href="#home" className="nav_link">
+                            <a href="#home" className="nav_link active-link">
                                 <i className='bx bx-home-alt-2'></i>
                                 <span>Início</span>
                             </a>

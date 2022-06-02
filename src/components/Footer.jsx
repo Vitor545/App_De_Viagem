@@ -8,9 +8,9 @@ const Footer = () => {
                     <a href="#" className="footer_logo">
                         App de Viajem <i className='bx bxs-plane-alt'></i>
                     </a>
-                    <p className="footer_description">
-                        Our vision is to make all people <br/> 
-                        the best place to live for them.
+                    <p className="footer_description">               
+                        Nossa visão é fazer com que todas as pessoas <br/>
+                        tenham a oportunidade de viajar.
                     </p>
                 </div>
                 <div className="footer_content">
@@ -36,7 +36,7 @@ const Footer = () => {
                         </h3>
                         <ul className="footer_links">
                             <li>
-                                <a href="#" className="footer_link">Como Nós Trabalhamos</a>
+                                <a href="#" className="footer_link">Como Trabalhamos</a>
                             </li>
                             <li>
                                 <a href="#" className="footer_link">Segurança</a>
@@ -67,22 +67,22 @@ const Footer = () => {
                             Siga Nós
                         </h3>
                         <ul className="footer_social">
-                            <a href="github.com/Vitor545" className="footer_social_link" target="_blank">
+                            <a href="https://github.com/Vitor545" className="footer_social_link" target="_blank" rel="noreferrer">
                                 <i className='bx bxl-github' ></i>
                             </a>
-                            <a href='linkedin.com/in/vitor-souza-da-silva' className="footer_social_link" target='_blank'>
+                            <a href='http://linkedin.com/in/vitor-souza-da-silva' className="footer_social_link" target='_blank' rel="noreferrer">
                                 <i className='bx bxl-linkedin-square' ></i>
                             </a>
-                            <a href="vitorsouzadasilva.netlify.app/" className="footer_social_link" target='_blank'>
+                            <a href="http://vitorsouzadasilva.netlify.app/" className="footer_social_link" target='_blank' rel="noreferrer">
                                 <i className='bx bx-globe' ></i>
                             </a>
                         </ul>
                     </div>
                 </div>
             </div>
-            <div className="footer_info_container">
+            <div className="footer_info container">
                 <span className="footer_copy">
-                    &#169; Vitor Souza da Silva. Todos os direitos reservados.
+                    &#169; Vitor Souza. Todos os direitos reservados.
                 </span>
                 <div className="footer_privacy">
                     <a href="#">Termos e regulamentos</a>
