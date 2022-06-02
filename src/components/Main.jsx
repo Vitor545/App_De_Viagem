@@ -1,4 +1,5 @@
 import React from "react";
+import Contact from "../page/Contact";
 import Home from '../page/Home'
 import Logo from '../page/Logo'
 import Popular from '../page/Popular'
@@ -11,6 +12,7 @@ const Main = () => {
             <Logo />
             <Popular />
             <Value />
+            <Contact />
         </main>
     );
 }
