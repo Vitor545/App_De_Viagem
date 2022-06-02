@@ -569,4 +569,111 @@ button {
   -webkit-transform: rotate(-180deg);
           transform: rotate(-180deg);
 }
+
+.contact_container {
+  row-gap: 2rem;
+}
+
+.contact_images {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.contact_orbe {
+  width: 266px;
+  height: 316px;
+  background-color: #f6f6f9;
+  border-radius: 136px 136px 16px 16px;
+}
+
+.contact_img {
+  position: absolute;
+  width: 250px;
+  height: 300px;
+  overflow: hidden;
+  border-radius: 126px 126px 12px 12px;
+  inset: 0;
+  margin: auto;
+  -webkit-box-shadow: 0 16px 32px rgba(22, 39, 106, 0.25);
+          box-shadow: 0 16px 32px rgba(22, 39, 106, 0.25);
+}
+
+.contact_description {
+  font-size: 0.75rem;
+  margin-bottom: 2.5rem;
+}
+
+.contact_card {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[2];
+      grid-template-columns: repeat(2, 1fr);
+  gap: 1.25rem 0.75rem;
+}
+
+.contact_card_box {
+  background-color: #f7f7f7;
+  border: 2px solid #f5f7ff;
+  padding: 1.25rem 0.75rem;
+  border-radius: 0.5rem;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.contact_card_info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-column-gap: 0.75rem;
+          column-gap: 0.75rem;
+  margin-bottom: 1.25rem;
+}
+
+.contact_card i {
+  padding: 6px;
+  background-color: #f0f3ff;
+  border-radius: 6px;
+  font-size: 1.25rem;
+  color: #3858d6;
+}
+
+.contact_card_title {
+  font-size: 0.938rem;
+}
+
+.contact_card_description {
+  font-size: 0.75rem;
+}
+
+.contact_card_button {
+  font-size: 0.813rem;
+  padding: 14px 0;
+  width: 100%;
+  border-radius: 0.25rem;
+  background: #f0f3ff;
+  color: #3858d6;
+  font-weight: 600;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.contact_card_button:hover {
+  background-color: #3858d6;
+  color: #f7f7f7;
+}
+
+.contact_card_box:hover {
+  -webkit-box-shadow: 0 8px 24px rgba(39, 69, 190, 0.1);
+          box-shadow: 0 8px 24px rgba(39, 69, 190, 0.1);
+}
 /*# sourceMappingURL=style.css.map */
