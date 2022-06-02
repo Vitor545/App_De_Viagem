@@ -845,4 +845,33 @@ button {
 ::-webkit-scrollbar-thumb:hover {
   background-color: #808493;
 }
+
+.scrollup {
+  position: fixed;
+  right: 1rem;
+  bottom: -30%;
+  background-color: #f7f7f7;
+  -webkit-box-shadow: 0 8px 12px rgba(39, 69, 190, 0.1);
+          box-shadow: 0 8px 12px rgba(39, 69, 190, 0.1);
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  padding: 0.35rem;
+  border-radius: 0.25rem;
+  color: #1f2f70;
+  font-size: 1.25rem;
+  z-index: 10;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.scrollup:hover {
+  -webkit-transform: translateY(-0.25rem);
+          transform: translateY(-0.25rem);
+  color: #3858d6;
+}
+
+.show-scroll {
+  bottom: 8rem;
+}
 /*# sourceMappingURL=style.css.map */
