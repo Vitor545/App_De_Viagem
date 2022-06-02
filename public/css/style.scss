@@ -545,3 +545,35 @@
       box-shadow: 0 8px 24px hsla(228, 66%, 45%, 0.1);
     }
 
+    .subscribe {
+      padding: 2.5rem 0;
+    }
+
+    .subscribe_container {
+      background-color: $first-color;
+      padding: 3rem 2rem;
+      border-radius: 1.25rem;
+      border: 6px solid $first-color-light;
+      text-align: center;
+    }
+
+    .subscribe_title {
+      font-size: $h2;
+      color: $backgroud;
+      margin-bottom: 1rem;
+    }
+
+    .subscribe_description {
+      color: hsl(228, 90%, 92%);
+      font-size: $font_pequena;
+      margin-bottom: 2rem;
+    }
+
+    .subscribe_button {
+      border: 2px solid $backgroud;
+      background: $first-color-light;
+      font-size: $font_pequena;
+      &:hover {
+        background-color: $first-color;
+      }
+    }

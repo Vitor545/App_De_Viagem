@@ -676,4 +676,38 @@ button {
   -webkit-box-shadow: 0 8px 24px rgba(39, 69, 190, 0.1);
           box-shadow: 0 8px 24px rgba(39, 69, 190, 0.1);
 }
+
+.subscribe {
+  padding: 2.5rem 0;
+}
+
+.subscribe_container {
+  background-color: #3858d6;
+  padding: 3rem 2rem;
+  border-radius: 1.25rem;
+  border: 6px solid #5670d7;
+  text-align: center;
+}
+
+.subscribe_title {
+  font-size: 1.25rem;
+  color: #f7f7f7;
+  margin-bottom: 1rem;
+}
+
+.subscribe_description {
+  color: #d8e0fd;
+  font-size: 0.813rem;
+  margin-bottom: 2rem;
+}
+
+.subscribe_button {
+  border: 2px solid #f7f7f7;
+  background: #5670d7;
+  font-size: 0.813rem;
+}
+
+.subscribe_button:hover {
+  background-color: #3858d6;
+}
 /*# sourceMappingURL=style.css.map */
