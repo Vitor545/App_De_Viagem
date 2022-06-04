@@ -13,18 +13,18 @@ const Contact = () => {
                 </div>
                 <div className="contact_content">
                     <div className="contact_data">
-                        <span className="section_subtitle">Entre em contato</span>
-                        <h2 className="section_title">
+                        <span className="section_subtitle" data-testid="subtitulo">Entre em contato</span>
+                        <h2 className="section_title" data-testid="titulo">
                             Fácil de entrar em contato conosco<span>.</span>
                         </h2>
-                        <p className="contact_description">
+                        <p className="contact_description" data-testid="description">
                             Há algum problema em encontrar a viajem dos seus sonhos? Necessita de um
                             guia na escolha de uma viajem? ou precisa de uma ajuda para conseguir uma passagem mais barata?
                             basta entrar em contato conosco.
                         </p>
                     </div>
                     <div className="contact_card">
-                        <div className="contact_card_box">
+                        <div className="contact_card_box" data-testid="card_contact">
                             <div className="contact_card_info">
                                 <i className='bx bxs-phone-call'></i>
                                 <div>
@@ -40,7 +40,7 @@ const Contact = () => {
                                 Telefonar Agora
                             </button>
                         </div>
-                        <div className="contact_card_box">
+                        <div className="contact_card_box" data-testid="card_contact">
                             <div className="contact_card_info">
                                 <i className='bx bxs-message-rounded-dots' ></i>
                                 <div>
@@ -56,7 +56,7 @@ const Contact = () => {
                                 Conversar Agora
                             </button>
                         </div>
-                        <div className="contact_card_box">
+                        <div className="contact_card_box" data-testid="card_contact">
                             <i className='bx bxs-video' ></i>
                             <div className="contact_card_info">
                                 <div>
@@ -72,7 +72,7 @@ const Contact = () => {
                                 Chamada Agora
                             </button>
                         </div>
-                        <div className="contact_card_box">
+                        <div className="contact_card_box" data-testid="card_contact">
                             <i className='bx bxs-envelope' ></i>
                             <div className="contact_card_info">
                                 <div>
