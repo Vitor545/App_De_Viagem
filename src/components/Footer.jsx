@@ -5,16 +5,16 @@ const Footer = () => {
         <footer className="footer section">
             <div className="footer_container container grid">
                 <div>
-                    <a href="#" className="footer_logo">
+                    <a href="#" className="footer_logo" data-testid='titulo'>
                         App de Viajem <i className='bx bxs-plane-alt'></i>
                     </a>
-                    <p className="footer_description">               
+                    <p className="footer_description" data-testid='description'>               
                         Nossa visão é fazer com que todas as pessoas <br/>
                         tenham a oportunidade de viajar.
                     </p>
                 </div>
-                <div className="footer_content">
-                    <div>
+                <div className="footer_content" >
+                    <div data-testid='sobre'>
                         <h3 className="footer_title">
                             Sobre
                         </h3>
@@ -30,7 +30,7 @@ const Footer = () => {
                             </li>
                         </ul>
                     </div>
-                    <div>
+                    <div data-testid='empresa'>
                         <h3 className="footer_title">
                             Empresa
                         </h3>
@@ -46,7 +46,7 @@ const Footer = () => {
                             </li>
                         </ul>
                     </div>
-                    <div>
+                    <div data-testid='suporte'>
                         <h3 className="footer_title">
                             Suporte
                         </h3>
@@ -62,7 +62,7 @@ const Footer = () => {
                             </li>
                         </ul>
                     </div>
-                    <div>
+                    <div data-testid='siga'>
                         <h3 className="footer_title">
                             Siga Nós
                         </h3>
