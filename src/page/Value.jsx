@@ -18,16 +18,16 @@ const Value = () => {
                 </div>
                 <div className="value_content">
                     <div className="value_data">
-                        <span className="section_subtitle">Nossos Valores</span>
-                        <h2 className="section_title">
+                        <span className="section_subtitle" data-testid="subtitulo">Nossos Valores</span>
+                        <h2 className="section_title" data-testid="titulo">
                             Valor Que Damos a Você<span>.</span>
                         </h2>
-                        <p className="value_description">
+                        <p className="value_description" data-testid="description">
                             Estamos sempre prontos para ajudar, fornecendo o melhor serviço para você.
                             Acreditamos que todos merecem viajar por um preço justo e com qualidade.
                         </p>
                     </div>
-                    <div className="value_accordion">
+                    <div className="value_accordion" data-testid="accordion">
                         <Accordion/>
                         <Accordion2/>
                         <Accordion3/>
