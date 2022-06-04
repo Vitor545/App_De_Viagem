@@ -83,3 +83,11 @@ npm start
 
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
+
+## 📄 Referências
+
+Nesse o projeto feito pela Bedimcode é feito usando apenas Javascript, Css e HTML. Para deixar o projeto mais completo e responsivo a todos os navagadores, Adicionei `React`, `Sass`, `adicionei mais Acessibilidade as imagem deixando os alt da imagem completo para que pessoas com deficiências possam usar leitor de página`, `troquei 100% o tema da página criando um app de viajem em português`, `além de testar 100% a página com React Testing Library`, tudo isso usando `Git e GitHub` seguindo `padrões de commits`. Já era um projeto muito bom mas com essas melhorias que consegui enchegar ficou ainda melhor.
+
+- Você pode clicar no link para ser redirecionado ao site:
+[Bedimcode](https://www.youtube.com/watch?v=twRLgPsP1H0&t)
+
