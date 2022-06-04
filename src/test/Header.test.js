@@ -13,36 +13,36 @@ describe('Testa se Header é renderizado corretamente', () => {
 
   test('Verifica se Header tem um link para a pagina Inicio', () => {
     render(<Header />);
-    const logoElement = screen.getByTestId('inicio');
-    expect(logoElement).toBeInTheDocument();
-    expect(logoElement).toHaveTextContent('Início');
+    const inicioElement = screen.getByTestId('inicio');
+    expect(inicioElement).toBeInTheDocument();
+    expect(inicioElement).toHaveTextContent('Início');
   });
 
   test('Verifica se Header tem um link para a pagina Lugares', () => {
     render(<Header />);
-    const logoElement = screen.getByTestId('lugares');
-    expect(logoElement).toBeInTheDocument();
-    expect(logoElement).toHaveTextContent('Lugares');
+    const lugarElement = screen.getByTestId('lugares');
+    expect(lugarElement).toBeInTheDocument();
+    expect(lugarElement).toHaveTextContent('Lugares');
   });
 
   test('Verifica se Header tem um link para a pagina Nossos Valores', () => {
     render(<Header />);
-    const logoElement = screen.getByTestId('nossosvalores');
-    expect(logoElement).toBeInTheDocument();
-    expect(logoElement).toHaveTextContent('Nossos Valores');
+    const valoresElement = screen.getByTestId('nossosvalores');
+    expect(valoresElement).toBeInTheDocument();
+    expect(valoresElement).toHaveTextContent('Nossos Valores');
   });
 
   test('Verifica se Header tem um link para a pagina Contato', () => {
     render(<Header />);
-    const logoElement = screen.getByTestId('contato');
-    expect(logoElement).toBeInTheDocument();
-    expect(logoElement).toHaveTextContent('Contato');
+    const contatoElement = screen.getByTestId('contato');
+    expect(contatoElement).toBeInTheDocument();
+    expect(contatoElement).toHaveTextContent('Contato');
   });
 
   test('Verifica se Header tem um botão cadastrar', () => {
     render(<Header />);
-    const logoElement = screen.getByTestId('botãoheader');
-    expect(logoElement).toBeInTheDocument();
-    expect(logoElement).toHaveTextContent('Cadastrar');
+    const botaoElement = screen.getByTestId('botãoheader');
+    expect(botaoElement).toBeInTheDocument();
+    expect(botaoElement).toHaveTextContent('Cadastrar');
   });
 });

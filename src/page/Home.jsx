@@ -6,16 +6,16 @@ const Home = () => {
         <section className="home section" id="home">
                 <div className="home_container container grid">
                     <div className="home_data">
-                        <h1 className="home_title">
+                        <h1 className="home_title" data-testid='home_title'>
                             Encontre <br/> Os melhores lugares <br/> Para se visitar
                         </h1>
-                        <p className="home_description">
+                        <p className="home_description" data-testid='home_description'>
                             Se sua vontade é viajar sem complicações você encontrou o lugar certo, vamos te levar a lugares inesquecíveis.
                         </p>
                         <form action="" className="home_search">
                             <i className='bx bxs-map'></i>
-                            <input type="search" placeholder="Qual seu próximo destino?" className="home_search_input" />
-                            <button className="button">Buscar</button>
+                            <input type="search" placeholder="Qual seu próximo destino?" className="home_search_input" data-testid='home_input' />
+                            <button className="button" data-testid='home_button'>Buscar</button>
                         </form>
                         <div className="home_value">
                             <div>
@@ -47,7 +47,7 @@ const Home = () => {
                     <div className="home_images">
                         <div className="home_orbe"></div>
                         <div className="home_img">
-                            <img src={ HomeImg } alt="imagem de uma das avenidas de Tiradentes/MG" />
+                            <img src={ HomeImg } alt="imagem de uma das avenidas de Tiradentes/MG"  data-testid='home_img'/>
                         </div>
                     </div>
                 </div>
