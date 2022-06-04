@@ -7,7 +7,7 @@ import Logo4 from '../img/logo4.png';
 const Logo = () => {
     return(
         <section className="logos section">
-            <div className="logos_container container grid">
+            <div className="logos_container container grid" data-testid="logo">
                 <div className="logos_img">
                     <img src={Logo1} alt="Logomarca de CVC" />
                 </div>
