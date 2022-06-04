@@ -4,7 +4,7 @@
 
 ## 📄 Contexto
 
-**Olá passageiro, qual o próximo destino!** Nesse projeto eu criei uma aplicação `100% testada e extremamente responsiva`. Tudo isso com o uso de tecnologias como `React`. Foi um projeto desafiador, pois houve `uso de várias técnicas css, além de ser um aplciação 100% testada`. Além disso, foi usado `Hooks e Padrões de commits`.
+**Olá passageiro, qual o próximo destino!** Nesse projeto eu criei uma aplicação `100% testada e extremamente responsiva`. Tudo isso com o uso de tecnologias como `React`. Foi um projeto desafiador, pois houve `uso de várias técnicas css, além de ser um aplicação 100% testada`. Além disso, foi usado `Hooks e Padrões de commits`.
 
 <br />
 
