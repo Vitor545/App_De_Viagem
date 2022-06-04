@@ -9,13 +9,13 @@ const Popular = () => {
     return(
         <section className="popular section" id="popular">
             <div className="container">
-                <span className="section_subtitle">Faça sua escolha</span>
-                <h2 className="section_title">
+                <span className="section_subtitle" data-testid='subtitulo'>Faça sua escolha</span>
+                <h2 className="section_title" data-testid='titulo'>
                     Lugares Populares<span>.</span>
                 </h2>
                 <div className="popular_container swiper mySwiper">
                     <div className="swiper-wrapper">
-                        <article className="popular_card swiper-slide">
+                        <article className="popular_card swiper-slide" data-testid='card'>
                             <img
                                 src={Popular1}
                                 alt="Imagem mostrar um homem em um barco em Siargao (Siargao Island)"
@@ -34,7 +34,7 @@ const Popular = () => {
                                 </p>
                             </div>
                         </article>
-                        <article className="popular_card swiper-slide">
+                        <article className="popular_card swiper-slide" data-testid='card'>
                             <img
                                 src={Popular2}
                                 alt="Imagem mostrar uma das estradas de Valley of Fire State Park, United States"
@@ -53,7 +53,7 @@ const Popular = () => {
                                 </p>
                             </div>
                         </article>
-                        <article className="popular_card swiper-slide">
+                        <article className="popular_card swiper-slide" data-testid='card'>
                             <img
                                 src={Popular3}
                                 alt="Imagem mostrar uma visão panorâmica de Dubai"
@@ -72,7 +72,7 @@ const Popular = () => {
                                 </p>
                             </div>
                         </article>
-                        <article className="popular_card swiper-slide">
+                        <article className="popular_card swiper-slide" data-testid='card'>
                             <img
                                 src={Popular4}
                                 alt="Imagem mostrar uma estrada e um navio em Lake Thun, Switzerland"
@@ -90,7 +90,7 @@ const Popular = () => {
                                 </p>
                             </div>
                         </article>
-                        <article className="popular_card swiper-slide">
+                        <article className="popular_card swiper-slide" data-testid='card'>
                             <img
                                 src={Popular5}
                                 alt="Imagem mostrar diversas casas em Santorini, Greece."
