@@ -8,7 +8,11 @@
 
 <br />
 
-<img width=100% src="ezgif.com-gif-maker.gif"></img>
+
+<div>
+<img width=100% src="imgTest.png"></img>
+<img width=100% src="videoPage.gif"></img>
+</div>
 
 <br/>
 
